@@ -1,14 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="100%" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="100%" height="100%" aria-label="360 Muslim Experts Footer">
   <defs>
-    <linearGradient id="gf" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2E9E5B"/>
-      <stop offset="50%" stop-color="#1E7A45"/>
-      <stop offset="100%" stop-color="#0F3D24"/>
+    <!-- Dark Emerald Gradient -->
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#041E12"/>
+      <stop offset="50%" stop-color="#0A331D"/>
+      <stop offset="100%" stop-color="#041E12"/>
     </linearGradient>
+
+    <linearGradient id="footerGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F3E5AB"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#AA7C11"/>
+    </linearGradient>
+
+    <linearGradient id="footerBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2E9E5B" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#D4AF37" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#2E9E5B" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <!-- Geometric Pattern Overlay -->
+    <pattern id="footerGeo" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 20,0 L 40,20 L 20,40 L 0,20 Z" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.05" fill="none"/>
+    </pattern>
   </defs>
-  <rect width="1200" height="120" fill="url(#gf)"/>
-  <text x="600" y="70" text-anchor="middle" fill="#ffffff"
-        font-family="Inter, Segoe UI, sans-serif" font-size="20" font-weight="500">
-    Learning. Serving. Growing.
+
+  <!-- Background Base -->
+  <rect width="1200" height="120" rx="12" fill="url(#footerBg)"/>
+  <rect width="1200" height="120" rx="12" fill="url(#footerGeo)"/>
+
+  <!-- Top Decorative Accent Line -->
+  <rect x="0" y="0" width="1200" height="2" fill="url(#footerBorder)"/>
+
+  <!-- Center Crest / Star -->
+  <g transform="translate(600, 32)">
+    <path d="M0,-8 L2,-2 L8,-8 L2,-2 L8,0 L2,2 L8,8 L2,2 L0,8 L-2,2 L-8,8 L-2,2 L-8,0 L-2,-2 L-8,-8 L-2,-2 Z" fill="url(#footerGold)"/>
+  </g>
+
+  <!-- Motto Text -->
+  <text x="600" y="65" text-anchor="middle" fill="#FFFFFF"
+        font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Inter, sans-serif"
+        font-size="18" font-weight="700" letter-spacing="4">
+    LEARNING  •  SERVING  •  GROWING
+  </text>
+
+  <!-- Subtitle Text -->
+  <text x="600" y="90" text-anchor="middle" fill="#A3D9B8"
+        font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Inter, sans-serif"
+        font-size="12" font-weight="500" letter-spacing="1.5">
+    Empowering the Ummah through Knowledge, Innovation &amp; Service
   </text>
 </svg>
