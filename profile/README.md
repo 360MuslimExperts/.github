@@ -4,19 +4,16 @@
 
 <div align="center">
 
-<!-- Animated banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E7A45,50:2E9E5B,100:0F3D24&height=200&section=header&text=360%20Muslim%20Experts&fontSize=48&fontColor=ffffff&fontAlignY=35&desc=Bridging%20Tradition%20%26%20Modern%20Innovation&descAlignY=58&descSize=16&animation=fadeIn" width="100%" alt="banner" />
+<img src="./assets/banner.svg" width="100%" alt="360 Muslim Experts — Bridging Tradition & Modern Innovation" />
 
-<br/>
+<br/><br/>
 
-<!-- Animated typing subtitle -->
 <a href="https://360me.pages.dev/">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3000&pause=1000&color=2E9E5B&center=true&vCenter=true&width=800&height=50&lines=An+International+Professional+Network;Scholars+%7C+Medical+Professionals+%7C+Engineers" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3000&pause=1000&color=2E9E5B&center=true&vCenter=true&width=850&height=50&lines=An+International+Professional+Network;Scholars+%7C+Medical+Professionals+%7C+Engineers" alt="Tagline" />
 </a>
 
 <br/>
 
-<!-- Social badges -->
 [![Website](https://img.shields.io/badge/Website-360me.pages.dev-1E7A45?style=flat-square&logo=googlechrome&logoColor=white)](https://360me.pages.dev/)
 [![Facebook](https://img.shields.io/badge/Facebook-360%20Muslim%20Experts-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/360MuslimExpertsPak/)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@360me.pages.dev)
@@ -24,7 +21,6 @@
 
 <br/>
 
-<!-- Stats -->
 <img src="https://komarev.com/ghpvc/?username=360MuslimExperts&label=Profile%20Views&color=1E7A45&style=flat-square" alt="Profile Views" />
 <img src="https://img.shields.io/badge/Team%20Members-11-2E9E5B?style=flat-square" alt="Team Members" />
 
@@ -284,13 +280,13 @@ We welcome developers, designers, writers, educators, and volunteers who share o
 [<img src="https://img.shields.io/badge/Instagram-Coming%20Soon-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />](#)
 [<img src="https://img.shields.io/badge/YouTube-Coming%20Soon-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />](#)
 
-<br/>
+</div>
 
-> *"Learning. Serving. Growing."*
+---
 
-<br/>
+<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F3D24,50:2E9E5B,100:1E7A45&height=120&section=footer&animation=fadeIn" width="100%" alt="footer" />
+<img src="./assets/footer.svg" width="100%" alt="Learning. Serving. Growing." />
 
 <sub>© 2026 <b>360 Muslim Experts</b> · Lahore, Pakistan</sub>
 
